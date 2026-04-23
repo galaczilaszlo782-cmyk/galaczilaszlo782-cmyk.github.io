@@ -1,22 +1,22 @@
 ---
-title: "Hello World – Bemutatkozás"
+title: "Hello World – Introduction"
 date: 2026-04-22 12:00:00 +0200
-categories: [Blog, Bemutatkozás]
-tags: [hello, első post, bemutatkozás]
+categories: [Blog, Introduction]
+tags: [hello, first post, introduction]
 ---
 
-# Üdvözöllek a blogomon! 👋
+# Welcome to my blog! 👋
 
-Ez az első bejegyzésem. A nevem **Galáczi László**, és ez az én személyes portfolió oldalam.
+This is my first post. My name is **Galáczi László**, and this is my personal portfolio site.
 
-## Miről fog szólni ez a blog?
+## What will this blog be about?
 
-- 💼 Szakmai tapasztalataimról
-- 🛠️ Projektjeimről és munkáimról
-- 📚 Tanulási útjaimról
+- 💼 My professional experience
+- 🛠️ My projects and work
+- 📚 My learning journeys
 
-## Rólam röviden
+## About me in brief
 
-Szenvedélyem a kreatív munka és az újítás. Ezen az oldalon megosztom a munkáimat és gondolataimat.
+My passion is creative work and innovation. On this site I share my work and thoughts.
 
-Köszönöm, hogy ellátogattál! 🚀
+Thank you for stopping by! 🚀

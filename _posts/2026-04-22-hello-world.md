@@ -14,6 +14,7 @@ This is my first post. My name is **Galáczi László**, and this is my personal
 - 💼 My professional experience
 - 🛠️ My projects and work
 - 📚 My learning journeys
+- 📚 My learning journeys1
 
 ## About me in brief
 

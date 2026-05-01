@@ -16,7 +16,7 @@ timezone:
 
 title: "Galaczi Laszlo" # the main title
 
-tagline: A text-focused Jekyll theme # it will display as the subtitle
+tagline: Cloud Security | AI Security | Purple Team Writeups # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
   blog, galaczi,, github
@@ -34,7 +34,7 @@ twitter:
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: your_full_name
+  name: Galaczi Laszlo
   email: example@domain.com # change to your email address
   fediverse_handle: # fill in your fediverse handle. E.g. "@username@domain.com"
   links:

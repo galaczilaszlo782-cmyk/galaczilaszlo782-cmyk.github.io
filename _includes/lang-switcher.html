@@ -1,0 +1,71 @@
+{% if page.alt_url %}
+<div class="lang-switcher" style="
+  display: flex;
+  gap: 6px;
+  margin: 1.2rem 0 1.8rem 0;
+">
+  {% if page.lang == 'en' %}
+    <span style="
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      padding: 4px 12px;
+      border-radius: 6px;
+      font-size: 0.82rem;
+      font-weight: 600;
+      background: var(--prompt-tip-bg, #1a3a2a);
+      color: var(--prompt-tip-icon-color, #4caf93);
+      border: 1px solid var(--prompt-tip-icon-color, #4caf93);
+      cursor: default;
+    ">🇬🇧 English</span>
+    <a href="{{ page.alt_url }}" style="
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      padding: 4px 12px;
+      border-radius: 6px;
+      font-size: 0.82rem;
+      font-weight: 600;
+      background: transparent;
+      color: var(--text-muted-color, #868686);
+      border: 1px solid var(--btn-border-color, #555);
+      text-decoration: none;
+      transition: border-color 0.2s, color 0.2s;
+    " onmouseover="this.style.color='var(--link-color, #4caf93)';this.style.borderColor='var(--link-color, #4caf93)'"
+       onmouseout="this.style.color='var(--text-muted-color, #868686)';this.style.borderColor='var(--btn-border-color, #555)'">
+      🇩🇪 Deutsch
+    </a>
+  {% elsif page.lang == 'de' %}
+    <a href="{{ page.alt_url }}" style="
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      padding: 4px 12px;
+      border-radius: 6px;
+      font-size: 0.82rem;
+      font-weight: 600;
+      background: transparent;
+      color: var(--text-muted-color, #868686);
+      border: 1px solid var(--btn-border-color, #555);
+      text-decoration: none;
+      transition: border-color 0.2s, color 0.2s;
+    " onmouseover="this.style.color='var(--link-color, #4caf93)';this.style.borderColor='var(--link-color, #4caf93)'"
+       onmouseout="this.style.color='var(--text-muted-color, #868686)';this.style.borderColor='var(--btn-border-color, #555)'">
+      🇬🇧 English
+    </a>
+    <span style="
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      padding: 4px 12px;
+      border-radius: 6px;
+      font-size: 0.82rem;
+      font-weight: 600;
+      background: var(--prompt-tip-bg, #1a3a2a);
+      color: var(--prompt-tip-icon-color, #4caf93);
+      border: 1px solid var(--prompt-tip-icon-color, #4caf93);
+      cursor: default;
+    ">🇩🇪 Deutsch</span>
+  {% endif %}
+</div>
+{% endif %}

@@ -1,9 +1,15 @@
 ---
-title: "Brutus – HackTheBox / Sherlocks"
+title: "Brutus – HackTheBox / Sherlocks ENG"
 date: 2026-05-09
 categories: [HackTheBox, Sherlocks]
 tags: [forensics, brute-force, auth-log, wtmp, ssh]
+lang: en
+alt_url: /posts/brutus-hackthebox-DE/
 ---
+
+![Brutus – HackTheBox / Sherlocks ENG](/assets/img/posts/brutus/picture0.png)
+
+{% include lang-switcher.html %}
 
 Learning cybersecurity can be tricky, but CTF (Capture the Flag) challenges make it much easier by letting you practice in a safe environment that feels like the real thing. One of these challenges is called **Brutus**, found on HackTheBox. It sits in the **Sherlock** category and is rated *very easy*, making it perfect for beginners.
 
@@ -11,32 +17,32 @@ In this challenge you are given two files to work with. The first is *auth.log*,
 
 ## Preparation
 
-**Step 1** — Download `Brutus.zip` from HackTheBox. Before extracting, preview its contents:
+1. Download `Brutus.zip` from HackTheBox. Before extracting, preview its contents:
 
-```bash
-unzip -l Brutus.zip
-```
+   ```bash
+   unzip -l Brutus.zip
+   ```
 
-![Brutus.zip contents](/assets/img/posts/brutus/picture1.png)
-_Picture 1: Brutus.zip contents — auth.log and wtmp listed_
+   ![Brutus.zip contents](/assets/img/posts/brutus/picture1.png)
+   _Picture 1: Brutus.zip contents — auth.log and wtmp listed_
 
-**Step 2** — Extract the archive using *7-Zip* with the password found on the HackTheBox website:
+2. Extract the archive using *7-Zip* with the password found on the HackTheBox website:
 
-```bash
-7z x Brutus.zip
-```
+   ```bash
+   7z x Brutus.zip
+   ```
 
-![Brutus.zip extracted using 7-Zip](/assets/img/posts/brutus/picture2.png)
-_Picture 2: Brutus.zip extracted using 7-Zip_
+   ![Brutus.zip extracted using 7-Zip](/assets/img/posts/brutus/picture2.png)
+   _Picture 2: Brutus.zip extracted using 7-Zip_
 
-**Step 3** — Before diving in, confirm the file types. *auth.log* is plain text (usable with `grep` and `awk`), while *wtmp* is binary and needs `utmpdump`:
+3. Before diving in, confirm the file types. *auth.log* is plain text (usable with `grep` and `awk`), while *wtmp* is binary and needs `utmpdump`:
 
-```bash
-file auth.log wtmp
-```
+   ```bash
+   file auth.log wtmp
+   ```
 
-![file command output](/assets/img/posts/brutus/picture3.png)
-_Picture 3: auth.log identified as ASCII text, wtmp identified as binary data — confirming which tool to use for each file_
+   ![file command output](/assets/img/posts/brutus/picture3.png)
+   _Picture 3: auth.log identified as ASCII text, wtmp identified as binary data — confirming which tool to use for each file_
 
 ## Analysis
 
@@ -95,7 +101,7 @@ _Picture 6: wtmp parsed via utmpdump — root session opened from 65.2.161.68 at
 
 Once the attacker's interactive session started, the operating system assigned it a session number. The specific line to look for is logged by `systemd-logind`:
 
-```text
+```bash
 systemd-logind[411]: New session 37 of user root
 ```
 

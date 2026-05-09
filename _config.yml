@@ -19,7 +19,7 @@ title: "Galaczi Laszlo" # the main title
 tagline: Cloud Security | AI Security | Purple Team Writeups # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
-  blog, galaczi,, github
+  blog, galaczi, github
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.

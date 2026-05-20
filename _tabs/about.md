@@ -8,7 +8,7 @@ Galaczi László-Alpár. Based in Munich.
 
 ## What this blog is
 
-A working notebook. I publish technical writeups from labs, CTFs, and the topics I'm digging into outside of work — primarily HackTheBox Sherlocks (forensics and incident reconstruction), with longer pieces when a topic warrants it.
+A working notebook. I publish technical writeups from labs, CTFs, and the topics I'm digging into outside of work — primarily HackTheBox Sherlocks, with longer pieces when a topic warrants it.
 
 The angle is purple team. I'm interested in attack techniques and detection in equal measure. Posts often pair the offensive side — what the technique does, what it looks like on the wire or on disk — with the defensive view — what ends up in logs, what telemetry would catch it, what won't.
 

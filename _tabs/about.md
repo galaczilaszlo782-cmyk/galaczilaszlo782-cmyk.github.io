@@ -29,7 +29,3 @@ MSc in Intelligent Systems. Several years working in network and infrastructure 
 Posts are written for practitioners — security engineers, red and blue team members, and readers with hands-on experience. The content assumes working familiarity with operating systems, networking, and common security tooling, and prioritizes technical depth over introductory background. Commands, configurations, and code are included where they support the analysis. Attacker infrastructure is defanged where relevant.
 
 Most posts are published in English. Selected pieces are also available in German.
-
-## Contact
-
-GitHub, RSS, and email links are in the sidebar.
